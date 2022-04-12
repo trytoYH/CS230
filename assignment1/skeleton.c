@@ -18,7 +18,7 @@ int countZero(unsigned x){
     
     while(x){
         
-        z = x & y; // if x's MSB is 0, than z is 0
+        z = x & y; // if x's MSB is 0, then z is 0
         x = (x<<1);
         
         if(z){ 
